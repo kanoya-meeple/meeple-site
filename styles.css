@@ -911,7 +911,7 @@ h3 {
 }
 
 .reserve-card.featured {
-  background: linear-gradient(135deg, #fff1e6, #fdba74);
+  background: linear-gradient(135deg, #fff4ec, #fdba74);
   border: 1px solid #fdba74;
   box-shadow: 0 4px 10px rgba(251,146,60,0.15);
 }
