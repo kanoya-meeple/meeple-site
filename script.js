@@ -31,3 +31,24 @@ if (backToTopButton) {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 }
+
+document.querySelectorAll(".faq-item").forEach((item) => {
+  const button = item.querySelector(".faq-question");
+  const icon = item.querySelector(".faq-icon");
+
+  if (!button || !icon) {
+    return;
+  }
+
+  const setState = (isOpen) => {
+    item.classList.toggle("is-open", isOpen);
+    button.setAttribute("aria-expanded", String(isOpen));
+    icon.textContent = isOpen ? "−" : "＋";
+  };
+
+  setState(item.classList.contains("is-open"));
+
+  button.addEventListener("click", () => {
+    setState(!item.classList.contains("is-open"));
+  });
+});
