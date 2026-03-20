@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>予約 | みいぷる</title>
+  <meta name="description" content="ボードゲームハウス みいぷるの予約ページ。LINE予約、フォーム予約、電話予約をシンプルに案内しています。">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K13MHSB1YD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-K13MHSB1YD');
+  </script>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-badge">Meeple</span>
+        <span class="brand-text">みいぷる</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">メニューを開く</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="メインメニュー">
+        <a href="../index.html">ホーム</a>
+        <a href="../guide/index.html">利用案内</a>
+        <a class="active" href="../reserve/index.html">予約</a>
+        <a href="../schedule/index.html">スケジュール</a>
+        <a href="../access/index.html">アクセス</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow">RESERVE</p>
+        <h1>かんたん予約（10秒）</h1>
+        <p>入口はひとつだけ。まずは「予約する」感覚で、いちばん使いやすい方法を選べるページにしています。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <div class="reserve-entry">
+          <h2>予約方法を選ぶ</h2>
+          <p>おすすめはLINE予約です。迷ったら一番上からどうぞ。</p>
+        </div>
+
+        <div class="reserve-options">
+          <article class="reserve-card featured">
+            <p class="reserve-rank">1. LINE予約</p>
+            <h3>一番かんたん・おすすめ</h3>
+            <p>空き状況の確認や質問もしやすく、最短で予約まで進めます。</p>
+            <a class="button button-line large" href="https://line.me/" target="_blank" rel="noreferrer">LINE予約はこちら</a>
+          </article>
+
+          <article class="reserve-card">
+            <p class="reserve-rank">2. フォーム予約</p>
+            <h3>登録不要で予約できます</h3>
+            <p>時間を選んで送信するだけ。あとで確認したい方にも向いています。</p>
+            <a class="button button-secondary large" href="https://forms.gle/" target="_blank" rel="noreferrer">Googleフォームで予約</a>
+          </article>
+
+          <article class="reserve-card">
+            <p class="reserve-rank">3. 電話予約</p>
+            <h3>電話で相談しながら予約</h3>
+            <p>「初めてで少し不安」という方は、お電話でもお気軽にどうぞ。</p>
+            <a class="phone-link" href="tel:0312345678">03-1234-5678</a>
+          </article>
+        </div>
+
+        <div class="simple-note">
+          <p>※ LINEリンク、フォームURL、電話番号は仮の情報です。実運用時に差し替えてください。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>ボードゲームハウス みいぷる</p>
+      <p>初心者歓迎 / ルール説明あり / 1人でもOK</p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
