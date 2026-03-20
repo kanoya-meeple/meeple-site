@@ -911,9 +911,9 @@ h3 {
 }
 
 .reserve-card.featured {
-  border: 2px solid rgba(240, 125, 34, 0.28);
-  background: linear-gradient(180deg, #fff7ee, #ffffff);
-  box-shadow: var(--shadow-strong);
+  background: linear-gradient(135deg, #fff7ed, #fed7aa);
+  border: 1px solid #fdba74;
+  box-shadow: 0 4px 12px rgba(251,146,60,0.18);
 }
 
 .reserve-card.featured .reserve-rank,
