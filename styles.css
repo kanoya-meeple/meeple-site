@@ -499,30 +499,17 @@ h3 {
   font-weight: 900;
 }
 
-.section-heading-first h3 {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 16px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, rgba(92, 195, 110, 0.18), rgba(255, 211, 77, 0.22));
-  color: var(--green-900);
-  font-size: 1.28rem;
+.beginner-message {
+  margin-bottom: 20px;
+  padding: 20px 22px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(223, 247, 216, 0.82), rgba(255, 255, 255, 0.96));
+  border: 1px solid rgba(47, 141, 70, 0.12);
+  box-shadow: var(--shadow);
 }
 
-.section-heading-first h3::before {
-  content: "はじめて";
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 72px;
-  min-height: 30px;
-  padding: 0 12px;
-  border-radius: 999px;
-  background: var(--white);
-  color: var(--green-700);
-  font-size: 0.72rem;
-  font-weight: 900;
+.beginner-message p:last-child {
+  margin-bottom: 0;
 }
 
 .section-heading.centered,
@@ -736,24 +723,11 @@ h3 {
   color: var(--green-900);
 }
 
-.first-visit-card,
 .faq-item {
   border-radius: var(--radius-lg);
   background: rgba(255, 255, 255, 0.94);
   box-shadow: var(--shadow);
   border: 1px solid rgba(47, 141, 70, 0.1);
-}
-
-.first-visit-card {
-  padding: 22px 24px;
-  background: linear-gradient(180deg, rgba(223, 247, 216, 0.7), rgba(255, 255, 255, 0.96));
-}
-
-.first-visit-question {
-  margin-bottom: 8px;
-  font-size: 1.12rem;
-  font-weight: 900;
-  color: var(--green-900);
 }
 
 .faq-item {
@@ -1129,14 +1103,12 @@ h3 {
   }
 
   .section-heading-flow,
-  .section-heading-support,
-  .section-heading-first {
+  .section-heading-support {
     margin-bottom: 14px;
   }
 
   .section-heading-flow h3,
-  .section-heading-support h3,
-  .section-heading-first h3 {
+  .section-heading-support h3 {
     width: 100%;
     justify-content: flex-start;
     padding: 12px 14px;
@@ -1176,7 +1148,8 @@ h3 {
     margin-top: 4px;
   }
 
-  .first-visit-card {
+  .beginner-message {
+    margin-bottom: 18px;
     padding: 18px;
   }
 
@@ -1364,12 +1337,6 @@ h3 {
     height: 36px;
     border-radius: 12px;
     font-size: 0.8rem;
-  }
-
-  .section-heading-first h3::before {
-    min-width: 66px;
-    min-height: 28px;
-    font-size: 0.68rem;
   }
 
   .faq-icon {
