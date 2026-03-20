@@ -876,6 +876,29 @@ h3 {
   padding: 28px;
 }
 
+.reserve-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 8px 16px rgba(36, 64, 46, 0.08);
+}
+
+.reserve-badge-hot {
+  background: linear-gradient(135deg, #f07d22, #e45a4f);
+  color: var(--white);
+}
+
+.reserve-badge-fast {
+  background: linear-gradient(135deg, #4d8fda, #6db7c7);
+  color: var(--white);
+}
+
 .reserve-options .reserve-card:nth-child(2) {
   background: linear-gradient(180deg, var(--yellow-200), #ffffff 72%);
   border-color: rgba(255, 159, 75, 0.18);
