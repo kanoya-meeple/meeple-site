@@ -893,10 +893,19 @@ h3 {
   min-height: 56px;
   padding: 0 18px;
   border-radius: 18px;
-  background: var(--green-200);
-  color: var(--green-900);
-  font-size: 1.3rem;
-  font-weight: 900;
+  background: #f6f7f6;
+  color: var(--green-800);
+  font-size: 1.16rem;
+  font-weight: 800;
+  border: 1px solid rgba(47, 141, 70, 0.12);
+  box-shadow: none;
+}
+
+.phone-note {
+  margin-top: -2px;
+  margin-bottom: 12px;
+  font-size: 0.88rem;
+  color: var(--muted);
 }
 
 .calendar-card {
