@@ -24,7 +24,7 @@
   --radius-xl: 34px;
   --radius-lg: 26px;
   --radius-md: 20px;
-  --container: 1120px;
+  --container: 1100px;
   --font-heading: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
   --font-body: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
 }
@@ -46,7 +46,7 @@ body {
   font-family: var(--font-body);
   color: var(--ink);
   background: var(--white);
-  line-height: 1.75;
+  line-height: 1.6;
   overflow-x: hidden;
 }
 
@@ -123,11 +123,11 @@ a.button {
   background: linear-gradient(135deg, var(--green-700), var(--green-500));
   color: var(--white);
   box-shadow: var(--shadow);
-  font-size: 0.9rem;
+  font-size: 14px;
 }
 
 .brand-text {
-  font-size: 1.4rem;
+  font-size: 20px;
 }
 
 .site-nav {
@@ -187,7 +187,7 @@ a.button {
 }
 
 .hero {
-  padding: 64px 0 44px;
+  padding: 64px 0 48px;
 }
 
 .page-hero {
@@ -240,28 +240,32 @@ p {
 
 h1 {
   font-family: var(--font-heading);
-  font-size: clamp(2.4rem, 5vw, 4.6rem);
+  font-size: clamp(28px, 5vw, 36px);
   line-height: 1.05;
   letter-spacing: -0.02em;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 h2 {
   font-family: var(--font-heading);
-  font-size: clamp(1.8rem, 3.6vw, 3rem);
+  font-size: clamp(20px, 3.6vw, 28px);
   line-height: 1.18;
   letter-spacing: -0.01em;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 h3 {
   font-family: var(--font-heading);
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .hero-subcopy {
-  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  font-size: 20px;
   font-weight: 800;
   color: var(--green-900);
   margin-bottom: 16px;
@@ -269,7 +273,7 @@ h3 {
 
 .hero-text,
 .page-hero p {
-  font-size: 1.03rem;
+  font-size: 16px;
   color: var(--muted);
 }
 
@@ -329,7 +333,7 @@ h3 {
 
 .button-label {
   font-family: var(--font-heading);
-  font-size: 1.08rem;
+  font-size: 18px;
   line-height: 1.2;
 }
 
@@ -488,7 +492,7 @@ h3 {
 }
 
 .section {
-  padding: 52px 0;
+  padding: 64px 0;
 }
 
 .section-accent {
@@ -500,7 +504,7 @@ h3 {
 }
 
 .section-heading {
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 .section-heading h2,
@@ -1079,7 +1083,7 @@ h3 {
   gap: 14px;
   flex-wrap: wrap;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 14px;
 }
 
 .back-to-top {
@@ -1147,15 +1151,15 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(1.95rem, 8.2vw, 2.8rem);
+    font-size: 28px;
   }
 
   h2 {
-    font-size: clamp(1.5rem, 5.8vw, 2.05rem);
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 1.08rem;
+    font-size: 18px;
   }
 
   .header-inner {
@@ -1235,7 +1239,7 @@ h3 {
   }
 
   .section {
-    padding: 32px 0;
+    padding: 40px 0;
   }
 
   .section-heading {
@@ -1377,11 +1381,11 @@ h3 {
 @media (max-width: 520px) {
   .container,
   .narrow {
-    width: min(calc(100% - 20px), var(--container));
+    width: min(calc(100% - 32px), var(--container));
   }
 
   body {
-    line-height: 1.58;
+    line-height: 1.6;
   }
 
   .brand {
@@ -1392,11 +1396,11 @@ h3 {
     min-width: 62px;
     min-height: 36px;
     padding: 0 12px;
-    font-size: 0.82rem;
+    font-size: 14px;
   }
 
   .brand-text {
-    font-size: 1.2rem;
+    font-size: 18px;
   }
 
   .button,
@@ -1413,7 +1417,7 @@ h3 {
   }
 
   .button-label {
-    font-size: 1.02rem;
+    font-size: 18px;
   }
 
   .hero-actions,
@@ -1463,7 +1467,7 @@ h3 {
   }
 
   .section {
-    padding: 28px 0;
+    padding: 40px 0;
   }
 
   .hero-text,
@@ -1474,7 +1478,7 @@ h3 {
   .reserve-card p,
   .flow-item p,
   .faq-item p {
-    font-size: 0.96rem;
+    font-size: 16px;
   }
 
   .beginner-message {
